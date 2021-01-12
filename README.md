@@ -1,2 +1,3 @@
-# magazan
- Projeto para o Grupo Líder
+# Projeto Magazan
+
+Projeto para o Grupo Líder
