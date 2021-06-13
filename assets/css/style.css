@@ -1,10 +1,3 @@
-/**
-* Template Name: Dewi - v2.2.0
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -50,13 +43,13 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #ff4a17;
+  background: rgb(37, 37, 99);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #ff5e31;
+  background: red;
   color: #fff;
 }
 
@@ -126,7 +119,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgb(37, 37, 99);
+  background: #fff;
   padding: 12px 0;
 }
 
@@ -176,7 +169,7 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   transition: 0.3s;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -208,7 +201,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #fff;
+  color: red;
 }
 
 .nav-menu .drop-down ul {
@@ -300,13 +293,14 @@ h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #fff;
+  background: red;
+  border-color: 2px solid red;
 }
 
 .get-started-btn:hover {
-  background: #fd3800;
-  color: #fff;
-  border-color: #ff4a17;
+  background: #fff;
+  color: black;
+  border: #fff;
 }
 
 @media (max-width: 768px) {
@@ -431,7 +425,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url('../img/hero-bg.jpg') top center;
+  background: url('/imagens/img1.jpg') top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -559,7 +553,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #5c8eb0;
+  color: rgb(31, 31, 150);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -568,7 +562,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ff8664;
+  background: red;
   margin: 4px 10px;
 }
 
@@ -579,7 +573,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  color: #263d4d;
+  color: rgb(31, 31, 150);
 }
 
 /*--------------------------------------------------------------
@@ -636,6 +630,10 @@ section {
 
 .about .content {
   font-size: 15px;
+}
+
+.about .content p{
+  text-align: justify;
 }
 
 .about .content h3 {
@@ -830,7 +828,7 @@ section {
 }
 
 .about-boxes .card-title a:hover {
-  color: blue;
+  color: black;
 }
 
 .about-boxes .card-text {
@@ -839,7 +837,7 @@ section {
 
 .about-boxes .card:hover .card-icon i {
   background: #fff;
-  color: blue;
+  color: red;
 }
 
 @media (max-width: 1024px) {
@@ -908,13 +906,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: #ff4a17;
+  color: rgb(252, 58, 58);
 }
 
 .features .nav-link.active {
-  background: #ff4a17;
+  background: rgb(37, 37, 99);
   color: #fff;
-  border-color: #ff4a17;
+  border-color: rgb(37, 37, 99);
 }
 
 @media (max-width: 768px) {
@@ -936,6 +934,10 @@ section {
 
 .features .tab-content {
   margin-top: 30px;
+}
+
+.features .tab-pane p{
+  text-align: justify;
 }
 
 .features .tab-pane h3 {
@@ -1304,6 +1306,16 @@ section {
   padding: 20px 0 30px 0;
 }
 
+.contact .info-box:hover{
+  transform: scale(1.01);
+  transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+.contact .info-box:hover::before{
+opacity: 5;
+}
+
+
 .contact .info-box i {
   font-size: 32px;
   color: rgb(252, 58, 58);
@@ -1578,8 +1590,8 @@ section {
 }
 
 #footer .footer-top {
-  background: #15222b;
-  border-bottom: 1px solid #1d303c;
+  background: rgb(37, 37, 99);
+  border-bottom: 1px solid rgb(37, 37, 99);
   padding: 60px 0 30px 0;
 }
 
@@ -1619,7 +1631,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ff4a17;
+  background: red;
   color: #fff;
   text-decoration: none;
 }
@@ -1644,7 +1656,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ff5e31;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1667,7 +1679,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ff4a17;
+  color: red;
 }
 
 #footer .footer-top .footer-newsletter form {
